@@ -1,0 +1,11 @@
+.col-md-12 {border:1px solid red;}
+.col-md-12:first-child {border-right:1px solid black;}
+
+.middle-line {border-right:1px solid black;}
+
+.site-logo-wrapper {text-align:center;}
+.site-slogan {font-weight:800;text-align:center;}
+.title {text-align:center;color:rgb(72, 247, 37);font-weight:500;text-shadow:1px 1px 5px gray;
+    margin:30px 0 30px 0;}
+.site-intro {width:50%;margin:0 auto;font-size:12px;color:rgb(72, 247, 37);
+    }

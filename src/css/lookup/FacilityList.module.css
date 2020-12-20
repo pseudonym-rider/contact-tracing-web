@@ -1,0 +1,11 @@
+#collapse-td {padding:0rem!important;}
+.table-component td {padding:0rem;}
+.table-sm td {padding:0rem!important;}
+.table td {padding:0rem!important;}
+.hidden-td {display:none; transition:all 1s linear;}
+
+.expanding-parent-tr {background-color:rgb(255, 150, 64);color:white;font-weight:bold;}
+.expanding-parent-tr > td {border:2px solid white !important;}
+
+.expanding-tr p span:first-child {font-weight:bold;}
+

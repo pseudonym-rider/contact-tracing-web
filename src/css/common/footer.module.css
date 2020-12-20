@@ -1,0 +1,5 @@
+.copyright-section {text-align:center;}
+.copyright {margin:100px auto 30px auto;display:flex;justify-content:center;align-items:center;}
+.copyright > span {font-size:10px;}
+.bob-logo-wrapper {width:35px;margin-right:20px;}
+.bob-logo-wrapper > img {width:100%;}
