@@ -6,11 +6,13 @@ contact-tracing tool for disease control authorities.
 ## Scenario
 The staff of Disease-Control-Authorities visits our web and requests signing up. It is accepted to get a account only when our managing team approves signing up request. After then, he can signin with authorized account. When he inputs the info.(name, phone-num) of confirmed person that are collected by epidemiological investigation, lists of facilities that confirmed person visited, visitor lists of each facilities confirmed person visited are shown through web. He can see the detail info of visitors by toggling the element of each in the list table. He can send the alert message to the close contact person by clicking the element and pushing 'Sending Alert' button.
 
-![Signup](./img/Signup.png =20%){: width="20%"}
-![RequestSignupMsg](./img/RequestSignupMsg.png){: width="20%"}
-![Lookup](./img/Lookup.png){: width="20%"}
-![NotAllowedMsg](./img/NotAllowedMsg.png){: width="20%"}
-![DetailedInfo](./img/DetailedInfo.png){: width="20%"}
+<p float="left">
+  <img src="./img/Signup.png" alt="Signup" width="190" />
+  <img src="./img/NotAllowedMsg.png" alt="NotAllowedMsg" width="190" />
+  <img src="./img/RequestSignupMsg.png" alt="RequestSignupMsg" width="190" />
+  <img src="./img/Lookup.png" alt="Lookup" width="190" />
+  <img src="./img/DetailedInfo.png" alt="DetailedInfo" width="190" />
+ </p>
 
 ## How to use
 `npm start`
