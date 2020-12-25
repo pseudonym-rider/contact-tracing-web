@@ -79,14 +79,14 @@ class LoginMain extends React.PureComponent {
         var { history } = this.props;
         var {id, password} = this.state;
         var payload = { id, password };
-        this.props.loginAsync({'id': id, 'password': password}, this.props.cookies);
+        // this.props.loginAsync({'id': id, 'password': password}, this.props.cookies);
         console.log("LoginMain.js - login() - after loginAsync");
 
-        // window.swal({
-        //     title: "안내",
-        //     text: "승인받지 못한 사용자입니다.",
-        //     icon: "warning" //"info,success,warning,error" 중 택1
-        // })
+        window.swal({
+            title: "안내",
+            text: "승인받지 못한 사용자입니다.",
+            icon: "warning" //"info,success,warning,error" 중 택1
+        })
         // .then((YES) => {
             // if (YES) {
                 this.props.history.push("/login");
